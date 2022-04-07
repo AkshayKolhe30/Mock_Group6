@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-05T00:40:39 IST" name="LoginSuite" finished-at="2022-04-05T00:41:10 IST" duration-ms="30828">
+    <groups>
+    </groups>
+    <test started-at="2022-04-05T00:40:39 IST" name="LoginTest_chrome" finished-at="2022-04-05T00:40:53 IST" duration-ms="13564">
+      <class name="com.Domain_EMITest.TC_001_VerifyLoginPage">
+        <test-method is-config="true" signature="BrowserOpen(java.lang.String)[pri:0, instance:com.Domain_EMITest.TC_001_VerifyLoginPage@5e2c3d18]" started-at="2022-04-05T00:40:39 IST" name="BrowserOpen" finished-at="2022-04-05T00:40:47 IST" duration-ms="7727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserOpen -->
+        <test-method signature="verifyFBLoginTest_Invaliddata()[pri:0, instance:com.Domain_EMITest.TC_001_VerifyLoginPage@5e2c3d18]" started-at="2022-04-05T00:40:47 IST" name="verifyFBLoginTest_Invaliddata" finished-at="2022-04-05T00:40:49 IST" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFBLoginTest_Invaliddata -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:com.Domain_EMITest.TC_001_VerifyLoginPage@5e2c3d18]" started-at="2022-04-05T00:40:49 IST" name="BrowserClose" finished-at="2022-04-05T00:40:53 IST" duration-ms="4411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- com.Domain_EMITest.TC_001_VerifyLoginPage -->
+    </test> <!-- LoginTest_chrome -->
+    <test started-at="2022-04-05T00:40:54 IST" name="LoginTest_Edge" finished-at="2022-04-05T00:41:10 IST" duration-ms="15971">
+      <class name="com.Domain_EMITest.TC_001_VerifyLoginPage">
+        <test-method is-config="true" signature="BS()[pri:0, instance:com.Domain_EMITest.TC_001_VerifyLoginPage@73eb439a]" started-at="2022-04-05T00:40:38 IST" name="BS" finished-at="2022-04-05T00:40:39 IST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method is-config="true" signature="BrowserOpen(java.lang.String)[pri:0, instance:com.Domain_EMITest.TC_001_VerifyLoginPage@73eb439a]" started-at="2022-04-05T00:40:54 IST" name="BrowserOpen" finished-at="2022-04-05T00:41:09 IST" duration-ms="14730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserOpen -->
+        <test-method signature="verifyFBLoginTest_Invaliddata()[pri:0, instance:com.Domain_EMITest.TC_001_VerifyLoginPage@73eb439a]" started-at="2022-04-05T00:41:09 IST" name="verifyFBLoginTest_Invaliddata" finished-at="2022-04-05T00:41:10 IST" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFBLoginTest_Invaliddata -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:com.Domain_EMITest.TC_001_VerifyLoginPage@73eb439a]" started-at="2022-04-05T00:41:10 IST" name="BrowserClose" finished-at="2022-04-05T00:41:10 IST" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- com.Domain_EMITest.TC_001_VerifyLoginPage -->
+    </test> <!-- LoginTest_Edge -->
+  </suite> <!-- LoginSuite -->
+</testng-results>
